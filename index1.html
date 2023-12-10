@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="stari-logo" src="stari logo.jpg" alt="stari logo skole" />
+      <h1>ТРЕЋА БЕОГРАДСКА ГИМНАЗИЈА</h1>
+      <img id="novi-logo" src="logo.png" alt="novi logo skole" />
+    </header>
+    <main>
+      <nav>
+        <h2>Navigacija</h2>
+        <ul>
+          <li><a href="./index1.html">Početna</a></li>
+          <li><a href="./index2.html">O školi</a></li>
+          <li><a href="./2.html">Učenici</a></li>
+          <li><a href="./3.html">Đak generacije</a></li>
+        </ul>
+      </nav>
+      <img src="slika1.jpg" alt="glavni ulaz skole" />
+      <p>
+        Трећа београдска гимназија основана је од стране Републике Србије као
+        део система образовања и васпитања у оквиру средњег образовања. Решењем
+        под бројем 022-05-72/93-03 Mинистарства просвете Републике Србије од
+        25.05.1994. године утврђено је да школа испуњава услове за рад. Адреса
+        школе: Његошева 15, 11000 Београд
+      </p>
+      <form class="menjan">
+        <label for="korisnicko-ime">Корисник:</label>
+        <input
+          id="korisnicko-ime"
+          type="text"
+          name="korisnik"
+          required
+          minlength="3"
+          maxlength="15"
+          placeholder="Унос имена"
+          size="20"
+        />
+        <br />
+        <label>Пол:</label>
+        <br />
+        <input
+          id="pol-korisnika"
+          type="radio"
+          name="pol"
+          value="muski"
+          checked
+        />
+        <label for="pol-korisnika">Muski</label>
+        <input id="pol-korisnika" type="radio" name="pol" value="zenski" />
+        <label for="pol-korisnika">Zenski</label>
+        <br />
+
+        <textarea
+          id="moj-komentar"
+          name="komentar"
+          placeholder="Овде унеси коментар"
+          rows="3"
+          cols="30"
+        ></textarea>
+        <br />
+        <input type="submit" value="Пошаљи" />
+        <input type="reset" value="Поништи унос" />
+      </form>
+    </main>
+    <footer>
+      <div class="zuta"><a href="./index1.html">Početna</a></div>
+      <div class="zuta"><a href="./index2.html">O školi</a></div>
+      <div class="zuta"><a href="./2.html">Učenici</a></div>
+      <div class="zuta"><a href="./3.html">Đak generacije</a></div>
+      <img src="podnozje.jpg" alt="ograda na stepenicama" />
+    </footer>
+  </body>
+</html>

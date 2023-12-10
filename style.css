@@ -1,0 +1,72 @@
+body {
+  margin-right: 150px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+#stari-logo {
+  float: left;
+  width: 220px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+#novi-logo {
+  float: right;
+  width: 120px;
+}
+
+main {
+  clear: both;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  padding-top: 10px;
+  float: left;
+  text-align: left;
+}
+
+nav > img,
+p {
+  width: 500px;
+}
+
+p {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  color: lightblue;
+}
+
+.menjan {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.zuta {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  margin-right: 100px;
+  background-color: yellow;
+}
+
+footer > img {
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+}
