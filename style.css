@@ -35,9 +35,8 @@ nav {
   text-align: left;
 }
 
-nav > img,
-p {
-  width: 500px;
+nav > img {
+  width: 400px;
 }
 
 p {
@@ -45,6 +44,7 @@ p {
   text-align: left;
   vertical-align: top;
   color: lightblue;
+  width: 400px;
 }
 
 .menjan {
