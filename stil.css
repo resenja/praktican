@@ -1,5 +1,5 @@
 body {
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 header {
@@ -60,7 +60,7 @@ footer {
 
 .zuta {
   display: inline-block;
-  width: 300px;
+  width: 240px;
   height: 100px;
   margin-right: 100px;
   background-color: yellow;
